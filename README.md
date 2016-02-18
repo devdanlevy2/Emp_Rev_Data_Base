@@ -10,3 +10,5 @@ You will be creating a data structure behind the code you have already written t
 * Creating an ERB chart to illustrate the relationships between the tables
 * Modifying a test suite to work with sqlite3
 * Practicing new techniques and Syntax
+
+(https://www.lucidchart.com/documents/edit/df5784b5-02db-4a02-b689-ab5104f746d9 "Dan's Lucidchart")
