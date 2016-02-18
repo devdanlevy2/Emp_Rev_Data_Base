@@ -32,7 +32,7 @@ class EmployeeReviews < Minitest::Test
     a = Department.new(name: "Marketing")
     new_employee = Employee.new(name: "Dan", email: "d@mail.com", phone: "914-555-5555", salary: 50000.00)
     a.employees << new_employee
-    assert_equal [new_employee], a.staff
+    assert_equal a.new_employee
   end
 
   def test_can_get_employee_name
@@ -79,10 +79,7 @@ class EmployeeReviews < Minitest::Test
   end
 
   def test_give_raise_by_amount
-    new_employee = Employee.new(name: "Dan", email: "d@mail.com", phone: "914-555-5555", salary: 50000.00)
-    assert_equal 60000, new_employee.raise_by_amount(10000)
-  end
-
+                                                                                 
   def test_department_raises_based_on_criteria
     a = Department.new(name: "Marketing")
     xavier = Employee.new(name: "Xavier", email: "ProfX@marvel.com", phone: "911", salary: 70000.00)
